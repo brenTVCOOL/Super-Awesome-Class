@@ -1,0 +1,4 @@
+alistcalledanything=[]
+for x in range (100000):
+    alistcalledanything.append(x)
+print (alistcalledanything) 

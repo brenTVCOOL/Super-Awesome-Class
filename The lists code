@@ -1,0 +1,19 @@
+thelistwithlists=[]
+listone=[]
+listtwo=[]
+listthree=[]
+listfour=[]
+listfive=[]
+for x in range (5):
+    #the four loop needs to account for making sure a diffrent number is apppended to each list. 
+    listone.append(x)
+    listtwo.append(x)
+    listthree.append(x)
+    listfour.append(x)
+    listfive.append(x)
+    thelistwithlists.append(listone)
+    thelistwithlists.append(listtwo)
+    thelistwithlists.append(listthree)
+    thelistwithlists.append(listfour)
+    thelistwithlists.append(listfive)
+    print (thelistwithlists) 

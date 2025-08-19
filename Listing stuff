@@ -1,0 +1,21 @@
+thelistwithlists=[]
+listone=[]
+listtwo=[]
+listthree=[]
+listfour=[]
+listseed=[]
+
+for x in range(3):
+    #for y in listone:
+     #the four loop needs to account for making sure a diffrent number is apppended to each list. 
+    listseed.append(x)
+for y in listseed:
+    #Insert transform or transformations here 
+    listone.append(y)
+       #we put y instead of list seed as y takes everything from listseed and just sticks it into listone.  
+
+
+thelistwithlists.append(listone)
+thelistwithlists.append(listseed)
+   
+print (thelistwithlists) 

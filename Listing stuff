@@ -10,12 +10,17 @@ for x in range(3):
      #the four loop needs to account for making sure a diffrent number is apppended to each list. 
     listseed.append(x)
 for y in listseed:
+    y+=1
     #Insert transform or transformations here 
     listone.append(y)
        #we put y instead of list seed as y takes everything from listseed and just sticks it into listone.  
-
-
-thelistwithlists.append(listone)
+    y+=1
+    listtwo.append(y)
+    y+=1
+    #create a for loop to repeat this process. 
+    listthree.append(y)
 thelistwithlists.append(listseed)
-   
+thelistwithlists.append(listone)
+thelistwithlists.append(listtwo)
+thelistwithlists.append(listthree)
 print (thelistwithlists) 

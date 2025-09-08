@@ -1,11 +1,13 @@
-seed=[]
-seed.append(0,0,0)
+seed=[0,0,0]
 theindicieswithindicies=[]
 indiciesone=[]
 indiciestwo=[]
-indiciesone.append(theindicieswithindicies)
-indiciestwo.append(theindicieswithindicies)
+theindicieswithindicies.append(indiciesone)
+theindicieswithindicies.append(indiciestwo)
 for y in seed:
-    for b in theindicieswithindicies: 
-     y+=1
+
+    for b in theindicieswithindicies: #the data set we want was accidentally created twice and this for loop will go off twice therefore it's likely where the error was. 
+        y+=1
+        b.append(seed)
+        #we never actually appended y into anything so we never saw the increased numbers since we never appended them. 
 print(theindicieswithindicies)

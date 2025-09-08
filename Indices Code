@@ -1,0 +1,11 @@
+seed=[]
+seed.append(0,0,0)
+theindicieswithindicies=[]
+indiciesone=[]
+indiciestwo=[]
+indiciesone.append(theindicieswithindicies)
+indiciestwo.append(theindicieswithindicies)
+for y in seed:
+    for b in theindicieswithindicies: 
+     y+=1
+print(theindicieswithindicies)

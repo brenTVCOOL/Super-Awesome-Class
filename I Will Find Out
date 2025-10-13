@@ -1,0 +1,9 @@
+Ifoundout={"n":0,"bd":0,"pw":0 }
+youwilltellme=[]
+Ineedtoask=["What is your name fine human?","Thanks for that! I will need your Birthday next!","Awesome! Please create a password to finish this off!"]
+for x in(Ineedtoask):
+    y=input(x)
+    youwilltellme.append(y)
+print(youwilltellme)
+print("nice, nice baby")
+print(youwilltellme[2])

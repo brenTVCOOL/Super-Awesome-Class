@@ -4,6 +4,10 @@ Ineedtoask=["What is your name fine human?","Thanks for that! I will need your B
 for x in(Ineedtoask):
     y=input(x)
     youwilltellme.append(y)
+Ifoundout["n"]=youwilltellme[0]
+Ifoundout["bd"]=youwilltellme[1]
+Ifoundout["pw"]=youwilltellme[2]
 print(youwilltellme)
 print("nice, nice baby")
 print(youwilltellme[2])
+print(Ifoundout)

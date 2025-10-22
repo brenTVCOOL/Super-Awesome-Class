@@ -1,0 +1,16 @@
+youwbetterhavesaidnicestuffaboutjohn=[]
+Iwillfindoutifyousaidnicestuffaboutjohn={"yes":"John appreciates it!","no":"You're wrong.... but okay"}
+Willyousucced=["Do you enjoy John's class?","Do you like his teaching style?","Do you like John's hairstyle?","Do you enjoy his room inside of a room model?"]
+counter=0
+for x in(Willyousucced):
+    try:
+        y=input(x)
+        youwbetterhavesaidnicestuffaboutjohn.append(y)
+        if counter <1:
+
+    
+            counter+=1#we created the counter to make sure nothing is printed after the first response. 
+        else:
+            print(Iwillfindoutifyousaidnicestuffaboutjohn[youwbetterhavesaidnicestuffaboutjohn[-1]])
+    except:
+        print("please only input yes or no dummy")
